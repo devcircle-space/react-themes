@@ -8,7 +8,7 @@ const App: React.FC = () => {
 
 	return (
 		<div className="app">
-			<button onClick={toggleTheme.bind(null)}>{`Switch to ${
+			<button className="button" onClick={toggleTheme.bind(null)}>{`Switch to ${
 				isDarkTheme === true ? "Light Theme" : "Dark Theme"
 			}`}</button>
 		</div>
