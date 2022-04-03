@@ -1,8 +1,18 @@
-import React from "react"
+import React, { useContext } from "react"
 import "./App.css"
 
+import { ThemeContext } from "./context/ThemeContext"
+
 const App: React.FC = () => {
-	return <div className="app"></div>
+	const { isDarkTheme, toggleTheme } = useContext(ThemeContext)
+
+	return (
+		<div className="app">
+			<button onClick={toggleTheme.bind(null)}>{`Switch to ${
+				isDarkTheme === true ? "Light Theme" : "Dark Theme"
+			}`}</button>
+		</div>
+	)
 }
 
 export default App
