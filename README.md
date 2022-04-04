@@ -4,7 +4,7 @@
 
 ### Adding theme support to a React App by building a cutom theme provider using Context API.
 
-Build theme provider and add themes support to your React app, without any external libraries. Supporting repository for my article on Medium.
+Build theme provider and add themes support to your React app, without any external libraries. Supporting repository for my [article on Medium].
 
 ## Stack
 
@@ -16,3 +16,6 @@ Build theme provider and add themes support to your React app, without any exter
 1. Clone the project or download as a zip file.
 2. Run `npm install` in project root folder to install all dependencies
 3. Run `npm start` to start app on default port `3000`.
+
+
+[article on Medium]: https://medium.com/@aakash.jha1103/building-a-custom-theme-provider-using-reacts-context-api-4e10de8eaf43
