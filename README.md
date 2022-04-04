@@ -6,7 +6,7 @@ Build theme provider and add themes support to your React app, without any exter
 
 ## Stack
 
-1. React
+1. React (with TypeScript)
 2. CSS
 
 ## Usage
