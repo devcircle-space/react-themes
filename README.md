@@ -1,3 +1,5 @@
+[![React-Node-CI](https://github.com/the-devdesigner/react-themes/actions/workflows/react-node-ci.yml/badge.svg?branch=main)](https://github.com/the-devdesigner/react-themes/actions/workflows/react-node-ci.yml)
+
 # Building Custom Theme Provider for React App
 
 ### Adding theme support to a React App by building a cutom theme provider using Context API.
